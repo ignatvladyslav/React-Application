@@ -7,7 +7,7 @@ import {
 
 export default ({history}) => (
   <Router history={history}>
-    <Route path="/" component={RootPage}>
+    <Route path="https://ignatvladyslav.github.io/React-Application/" component={RootPage}>
       <IndexRoute component={IndexPage} />
       <Route path="edit" component={EditPage} />
       <Route path="add" component={AddPage} />
@@ -16,6 +16,6 @@ export default ({history}) => (
       <Route path="filter" component={FilterPage} />
 
     </Route>
-    <Route path="*" component={() => <div>404!<br /><a href="/">go home</a></div>} />
+    <Route path="*" component={() => <div>404!<br /><a href="https://ignatvladyslav.github.io/React-Application/">go home</a></div>} />
   </Router>
 );
