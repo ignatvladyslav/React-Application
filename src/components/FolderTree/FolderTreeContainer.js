@@ -11,7 +11,8 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-  dispatch({type: 'app/loaddirectories'})
+  dispatch({type: 'app/loaddirectories'});
+  dispatch({type: 'app/loadPokemon'});
   return {
     loaddirectories: console.log
   }
