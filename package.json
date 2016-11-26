@@ -1,0 +1,23 @@
+{
+  "name": "react_app",
+  "version": "1.0.0",
+  "description": "\"# React-Application\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignatvladyslav/React-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ignatvladyslav/React-Application/issues"
+  },
+  "homepage": "https://github.com/ignatvladyslav/React-Application#readme",
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
